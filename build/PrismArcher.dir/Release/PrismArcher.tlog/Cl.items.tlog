@@ -3,13 +3,17 @@ D:\Github\shooting_puzzle_game\Source\BulletManager.cpp;D:\Github\shooting_puzzl
 D:\Github\shooting_puzzle_game\Source\Camera.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Camera.obj
 D:\Github\shooting_puzzle_game\Source\DXCore.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\DXCore.obj
 D:\Github\shooting_puzzle_game\Source\Enemy.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Enemy.obj
+D:\Github\shooting_puzzle_game\Source\FXManager.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\FXManager.obj
 D:\Github\shooting_puzzle_game\Source\GameObject.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\GameObject.obj
+D:\Github\shooting_puzzle_game\Source\HUD.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\HUD.obj
 D:\Github\shooting_puzzle_game\Source\Input.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Input.obj
 D:\Github\shooting_puzzle_game\Source\LevelManager.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\LevelManager.obj
 D:\Github\shooting_puzzle_game\Source\Main.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Main.obj
+D:\Github\shooting_puzzle_game\Source\MenuUI.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\MenuUI.obj
 D:\Github\shooting_puzzle_game\Source\Mirror.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Mirror.obj
 D:\Github\shooting_puzzle_game\Source\Player.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Player.obj
 D:\Github\shooting_puzzle_game\Source\SpriteRenderer.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\SpriteRenderer.obj
 D:\Github\shooting_puzzle_game\Source\StageManager.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\StageManager.obj
 D:\Github\shooting_puzzle_game\Source\Timer.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\Timer.obj
 D:\Github\shooting_puzzle_game\Source\UIManager.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\UIManager.obj
+D:\Github\shooting_puzzle_game\Source\UIObject.cpp;D:\Github\shooting_puzzle_game\build\PrismArcher.dir\Release\UIObject.obj

@@ -2,6 +2,7 @@
 #include "../Include/BulletManager.h"
 #include "../Include/Camera.h"
 #include "../Include/DXCore.h"
+#include "../Include/FXManager.h"
 #include "../Include/Input.h"
 #include "../Include/LevelManager.h"
 #include "../Include/Player.h"
@@ -103,19 +104,24 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
       // Update
       StageManager::Instance().Update(dt);
-      g_player->Update(dt);
-      LevelManager::Instance().Update(dt);
-      BulletManager::Instance().Update(dt);
+      if (StageManager::Instance().GetState() == GameState::Playing ||
+          StageManager::Instance().GetState() == GameState::LevelStart) {
+        g_player->Update(dt);
+        LevelManager::Instance().Update(dt);
+        BulletManager::Instance().Update(dt);
+        FXManager::Instance().Update(dt);
+      }
       UIManager::Instance().Update(dt);
       g_camera->Update();
 
       // Render
-      g_dxCore->BeginFrame(0.1f, 0.1f, 0.2f, 1.0f);
+      g_dxCore->BeginFrame(0.05f, 0.05f, 0.15f, 1.0f); // Deeper background
 
       DirectX::XMMATRIX viewProj = g_camera->GetViewProjectionMatrix();
       LevelManager::Instance().Render(g_renderer.get(), viewProj);
       g_player->Render(g_renderer.get(), viewProj);
       BulletManager::Instance().Render(g_renderer.get(), viewProj);
+      FXManager::Instance().Render(g_renderer.get(), viewProj);
 
       UIManager::Instance().Render(g_renderer.get());
 

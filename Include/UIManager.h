@@ -1,5 +1,6 @@
 #pragma once
-#include <directxmath.h>
+#include "UIObject.h"
+#include <vector>
 
 class UIManager {
 public:
@@ -11,6 +12,9 @@ public:
   void Update(float deltaTime);
   void Render(class SpriteRenderer *renderer);
 
+  void AddUIObject(UIObject *obj) { m_uiObjects.push_back(obj); }
+  void Clear();
+
   void ShowLevelStart(int level);
   void ShowWin();
   void ShowGameOver();
@@ -19,7 +23,11 @@ public:
 
 private:
   UIManager();
+  ~UIManager();
+
   float m_flashAlpha;
   float m_flashTimer;
   DirectX::XMFLOAT4 m_flashColor;
+
+  std::vector<UIObject *> m_uiObjects;
 };

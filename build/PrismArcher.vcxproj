@@ -381,24 +381,31 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Camera.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\DXCore.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Enemy.cpp" />
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\FXManager.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\GameObject.cpp" />
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\HUD.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Input.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\LevelManager.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Main.cpp" />
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\MenuUI.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Mirror.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Player.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\SpriteRenderer.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\StageManager.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Timer.cpp" />
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\UIManager.cpp" />
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\UIObject.cpp" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Bullet.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\BulletManager.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Camera.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\DXCore.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Enemy.h" />
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\FXManager.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\GameObject.h" />
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\HUD.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Input.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\LevelManager.h" />
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\MenuUI.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Mirror.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Physics.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Player.h" />
@@ -407,6 +414,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\StageManager.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Timer.h" />
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\UIManager.h" />
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\UIObject.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

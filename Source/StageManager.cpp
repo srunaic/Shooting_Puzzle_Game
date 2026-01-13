@@ -1,17 +1,26 @@
 #include "../Include/StageManager.h"
 #include "../Include/BulletManager.h"
 #include "../Include/Enemy.h"
+#include "../Include/HUD.h"
+#include "../Include/Input.h"
 #include "../Include/LevelManager.h"
+#include "../Include/MenuUI.h"
 #include "../Include/Mirror.h"
 #include "../Include/Player.h"
+#include "../Include/UIManager.h"
 #include <memory>
+
 
 extern std::unique_ptr<Player> g_player;
 
 StageManager::StageManager()
-    : m_state(GameState::LevelStart), m_currentLevel(1), m_stateTimer(0) {}
+    : m_state(GameState::MainMenu), m_currentLevel(1), m_stateTimer(0) {}
 
-void StageManager::Init() { LoadLevel(m_currentLevel); }
+void StageManager::Init() {
+  // Start with Main Menu
+  UIManager::Instance().Clear();
+  UIManager::Instance().AddUIObject(new MainMenu());
+}
 
 void StageManager::LoadLevel(int levelIndex) {
   m_currentLevel = levelIndex;
@@ -19,11 +28,16 @@ void StageManager::LoadLevel(int levelIndex) {
   m_stateTimer = 2.0f;
 
   LevelManager::Instance().Clear();
+  UIManager::Instance().Clear();
+
+  // HUD
+  UIManager::Instance().AddUIObject(new HealthHUD(5));
+  UIManager::Instance().AddUIObject(new ArrowTypeHUD());
 
   // Setup player
   g_player->GetTransform().position = {-500, 0};
+  g_player->SetActive(true);
 
-  // Basic level generation based on index
   if (levelIndex == 1) {
     LevelManager::Instance().AddObject(new Mirror({0, 0}, 0.785f, {150, 20}));
     LevelManager::Instance().AddObject(new Enemy({400, 200}, 100.0f));
@@ -45,12 +59,30 @@ void StageManager::LoadLevel(int levelIndex) {
 }
 
 void StageManager::Update(float deltaTime) {
-  if (m_state == GameState::LevelStart) {
+  auto &input = Input::Instance();
+
+  if (m_state == GameState::MainMenu) {
+    if (input.IsKeyDown(VK_RETURN)) {
+      LoadLevel(1);
+    }
+  } else if (m_state == GameState::Paused) {
+    if (input.IsKeyDown('P') || input.IsKeyDown(VK_ESCAPE)) {
+      m_state = GameState::Playing;
+      UIManager::Instance().Clear();
+      UIManager::Instance().AddUIObject(new HealthHUD(5));
+      UIManager::Instance().AddUIObject(new ArrowTypeHUD());
+    }
+  } else if (m_state == GameState::LevelStart) {
     m_stateTimer -= deltaTime;
     if (m_stateTimer <= 0)
       m_state = GameState::Playing;
   } else if (m_state == GameState::Playing) {
-    // Check win condition: No enemies left
+    if (input.IsKeyDown('P')) {
+      m_state = GameState::Paused;
+      UIManager::Instance().AddUIObject(new PauseMenu());
+    }
+
+    // Check win condition
     bool enemiesLeft = false;
     for (auto obj : LevelManager::Instance().GetObjects()) {
       if (dynamic_cast<Enemy *>(obj) && obj->IsActive()) {

@@ -1,6 +1,8 @@
 #include "../Include/Bullet.h"
+#include "../Include/FXManager.h"
 #include "../Include/Physics.h"
 #include "../Include/SpriteRenderer.h"
+
 
 using namespace DirectX;
 
@@ -43,5 +45,8 @@ void Bullet::Render(SpriteRenderer *renderer, const XMMATRIX &viewProj) {
 
 // Added method for reflection
 void Bullet::Reflect(DirectX::XMFLOAT2 normal) {
+  DirectX::XMFLOAT2 oldPos = m_transform.position;
   m_direction = Physics::Reflect(m_direction, normal);
+  // Trail on reflection
+  FXManager::Instance().AddTrail(oldPos, m_transform.position);
 }

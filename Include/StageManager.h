@@ -4,7 +4,7 @@
 #include <vector>
 
 
-enum class GameState { LevelStart, Playing, Win, GameOver };
+enum class GameState { MainMenu, LevelStart, Playing, Paused, Win, GameOver };
 
 class StageManager {
 public:

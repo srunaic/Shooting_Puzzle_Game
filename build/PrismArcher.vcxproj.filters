@@ -16,7 +16,13 @@
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\FXManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Input.cpp">
@@ -26,6 +32,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\MenuUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\Mirror.cpp">
@@ -46,6 +55,9 @@
     <ClCompile Include="D:\Github\shooting_puzzle_game\Source\UIManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Github\shooting_puzzle_game\Source\UIObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Bullet.h">
@@ -63,13 +75,22 @@
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\FXManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\HUD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Input.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\MenuUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\Mirror.h">
@@ -94,6 +115,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Github\shooting_puzzle_game\Include\UIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\shooting_puzzle_game\Include\UIObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
