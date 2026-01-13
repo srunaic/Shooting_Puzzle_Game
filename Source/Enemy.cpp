@@ -1,4 +1,5 @@
 #include "../Include/Enemy.h"
+#include "../Include/UIManager.h"
 
 using namespace DirectX;
 
@@ -24,7 +25,6 @@ void Enemy::Update(float deltaTime) {
       m_transform.position.y += (dy / len) * m_speed * deltaTime;
     }
   } else if (m_target) {
-    // Simple detection range
     XMFLOAT2 targetPos = m_target->GetTransform().position;
     float dx = targetPos.x - m_transform.position.x;
     float dy = targetPos.y - m_transform.position.y;
@@ -43,18 +43,18 @@ void Enemy::Render(SpriteRenderer *renderer, const XMMATRIX &viewProj) {
   XMMATRIX world = m_transform.GetWorldMatrix();
   XMMATRIX wvp = world * viewProj;
 
-  // Red color for enemies
   XMFLOAT4 color = {1.0f, 0.2f, 0.2f, 1.0f};
-  if (m_state == EnemyState::Dead)
-    color.w = 0.5f;
-
   renderer->Draw(wvp, color);
 }
 
 void Enemy::TakeDamage() {
   m_health -= 1.0f;
+  UIManager::Instance().TriggerFlash({1.0f, 1.0f, 1.0f, 1.0f},
+                                     0.2f); // White hit flash
   if (m_health <= 0) {
     m_state = EnemyState::Dead;
-    m_active = false; // For now just deactivate
+    m_active = false;
+    UIManager::Instance().TriggerFlash({1.0f, 0.0f, 0.0f, 1.0f},
+                                       0.3f); // Red kill flash
   }
 }

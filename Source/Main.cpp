@@ -5,9 +5,11 @@
 #include "../Include/Input.h"
 #include "../Include/LevelManager.h"
 #include "../Include/Player.h"
+#include "../Include/SoundManager.h"
 #include "../Include/SpriteRenderer.h"
 #include "../Include/StageManager.h"
 #include "../Include/Timer.h"
+#include "../Include/UIManager.h"
 #include <memory>
 #include <windows.h>
 
@@ -83,7 +85,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
   g_camera = std::make_unique<Camera>(1280, 720);
   g_player = std::make_unique<Player>();
+
   BulletManager::Instance().Initialize(50);
+  SoundManager::Instance().Init();
   StageManager::Instance().Init();
 
   // Main Game Loop
@@ -102,6 +106,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
       g_player->Update(dt);
       LevelManager::Instance().Update(dt);
       BulletManager::Instance().Update(dt);
+      UIManager::Instance().Update(dt);
       g_camera->Update();
 
       // Render
@@ -111,6 +116,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
       LevelManager::Instance().Render(g_renderer.get(), viewProj);
       g_player->Render(g_renderer.get(), viewProj);
       BulletManager::Instance().Render(g_renderer.get(), viewProj);
+
+      // UI Rendered on top
+      UIManager::Instance().Render(g_renderer.get());
 
       if (Input::Instance().IsKeyDown(VK_ESCAPE))
         PostQuitMessage(0);
