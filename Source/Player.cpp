@@ -1,5 +1,6 @@
 #include "../Include/Player.h"
 #include "../Include/Input.h"
+#include "../Include/SpriteRenderer.h"
 
 using namespace DirectX;
 

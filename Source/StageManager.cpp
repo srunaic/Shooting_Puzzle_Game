@@ -4,7 +4,7 @@
 #include "../Include/LevelManager.h"
 #include "../Include/Mirror.h"
 #include "../Include/Player.h"
-
+#include <memory>
 
 extern std::unique_ptr<Player> g_player;
 

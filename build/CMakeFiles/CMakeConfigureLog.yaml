@@ -1,0 +1,1740 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
+      빌드 시작: 2026-01-13 오후 3:58:58
+      
+      1 노드의 "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+      "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.81
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Github/shooting_puzzle_game/build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/USER/.dotnet/tools/lld-link.com"
+      - "C:/Users/USER/.dotnet/tools/lld-link.exe"
+      - "C:/Users/USER/.dotnet/tools/lld-link"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Users/USER/.local/bin/lld-link.com"
+      - "C:/Users/USER/.local/bin/lld-link.exe"
+      - "C:/Users/USER/.local/bin/lld-link"
+      - "D:/Python/Scripts/lld-link.com"
+      - "D:/Python/Scripts/lld-link.exe"
+      - "D:/Python/Scripts/lld-link"
+      - "D:/Python/lld-link.com"
+      - "D:/Python/lld-link.exe"
+      - "D:/Python/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/Program Files/supabase_CLI/lld-link.com"
+      - "C:/Program Files/supabase_CLI/lld-link.exe"
+      - "C:/Program Files/supabase_CLI/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/mt"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/mt.com"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/mt.exe"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/USER/.dotnet/tools/mt.com"
+      - "C:/Users/USER/.dotnet/tools/mt.exe"
+      - "C:/Users/USER/.dotnet/tools/mt"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Git LFS/mt.com"
+      - "C:/Program Files/Git LFS/mt.exe"
+      - "C:/Program Files/Git LFS/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/cursor/resources/app/bin/mt.com"
+      - "C:/Program Files/cursor/resources/app/bin/mt.exe"
+      - "C:/Program Files/cursor/resources/app/bin/mt"
+      - "C:/Users/USER/.local/bin/mt.com"
+      - "C:/Users/USER/.local/bin/mt.exe"
+      - "C:/Users/USER/.local/bin/mt"
+      - "D:/Python/Scripts/mt.com"
+      - "D:/Python/Scripts/mt.exe"
+      - "D:/Python/Scripts/mt"
+      - "D:/Python/mt.com"
+      - "D:/Python/mt.exe"
+      - "D:/Python/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/mt"
+      - "C:/Program Files/Java/jdk-21/bin/mt.com"
+      - "C:/Program Files/Java/jdk-21/bin/mt.exe"
+      - "C:/Program Files/Java/jdk-21/bin/mt"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/mt.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/mt.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/mt"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/mt.com"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/mt.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/mt"
+      - "C:/Users/USER/AppData/Roaming/npm/mt.com"
+      - "C:/Users/USER/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/USER/AppData/Roaming/npm/mt"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/mt.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/mt.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/mt"
+      - "C:/Program Files/supabase_CLI/mt.com"
+      - "C:/Program Files/supabase_CLI/mt.exe"
+      - "C:/Program Files/supabase_CLI/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
+      빌드 시작: 2026-01-13 오후 3:58:59
+      
+      1 노드의 "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+      "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Github/shooting_puzzle_game/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lld-link"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/USER/.dotnet/tools/lld-link.com"
+      - "C:/Users/USER/.dotnet/tools/lld-link.exe"
+      - "C:/Users/USER/.dotnet/tools/lld-link"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Users/USER/.local/bin/lld-link.com"
+      - "C:/Users/USER/.local/bin/lld-link.exe"
+      - "C:/Users/USER/.local/bin/lld-link"
+      - "D:/Python/Scripts/lld-link.com"
+      - "D:/Python/Scripts/lld-link.exe"
+      - "D:/Python/Scripts/lld-link"
+      - "D:/Python/lld-link.com"
+      - "D:/Python/lld-link.exe"
+      - "D:/Python/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/lld-link"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-21/bin/lld-link"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/lld-link"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/USER/AppData/Roaming/npm/lld-link"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/Program Files/supabase_CLI/lld-link.com"
+      - "C:/Program Files/supabase_CLI/lld-link.exe"
+      - "C:/Program Files/supabase_CLI/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/app/USER/product/21c/dbhomeXE/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/USER/.dotnet/tools/"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/USER/.local/bin/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/"
+      - "C:/Program Files/Java/jdk-21/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/USER/AppData/Roaming/npm/"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Program Files/supabase_CLI/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PrismArcher/bin/"
+      - "C:/Program Files (x86)/PrismArcher/sbin/"
+      - "C:/Program Files (x86)/PrismArcher/"
+    searched_directories:
+      - "C:/app/USER/product/21c/dbhomeXE/bin/rc.com"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/rc.exe"
+      - "C:/app/USER/product/21c/dbhomeXE/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/USER/.dotnet/tools/rc.com"
+      - "C:/Users/USER/.dotnet/tools/rc.exe"
+      - "C:/Users/USER/.dotnet/tools/rc"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/USER/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Git LFS/rc.com"
+      - "C:/Program Files/Git LFS/rc.exe"
+      - "C:/Program Files/Git LFS/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/cursor/resources/app/bin/rc.com"
+      - "C:/Program Files/cursor/resources/app/bin/rc.exe"
+      - "C:/Program Files/cursor/resources/app/bin/rc"
+      - "C:/Users/USER/.local/bin/rc.com"
+      - "C:/Users/USER/.local/bin/rc.exe"
+      - "C:/Users/USER/.local/bin/rc"
+      - "D:/Python/Scripts/rc.com"
+      - "D:/Python/Scripts/rc.exe"
+      - "D:/Python/Scripts/rc"
+      - "D:/Python/rc.com"
+      - "D:/Python/rc.exe"
+      - "D:/Python/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/bin/rc"
+      - "C:/Program Files/Java/jdk-21/bin/rc.com"
+      - "C:/Program Files/Java/jdk-21/bin/rc.exe"
+      - "C:/Program Files/Java/jdk-21/bin/rc"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/rc.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/rc.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/bin/rc"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Ollama/rc"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/rc.com"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/rc.exe"
+      - "C:/Users/USER/AppData/Local/Programs/Antigravity/bin/rc"
+      - "C:/Users/USER/AppData/Roaming/npm/rc.com"
+      - "C:/Users/USER/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/USER/AppData/Roaming/npm/rc"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/rc.com"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/rc.exe"
+      - "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/rc"
+      - "C:/Program Files/supabase_CLI/rc.com"
+      - "C:/Program Files/supabase_CLI/rc.exe"
+      - "C:/Program Files/supabase_CLI/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/PrismArcher/bin/rc.com"
+      - "C:/Program Files (x86)/PrismArcher/bin/rc.exe"
+      - "C:/Program Files (x86)/PrismArcher/bin/rc"
+      - "C:/Program Files (x86)/PrismArcher/sbin/rc.com"
+      - "C:/Program Files (x86)/PrismArcher/sbin/rc.exe"
+      - "C:/Program Files (x86)/PrismArcher/sbin/rc"
+      - "C:/Program Files (x86)/PrismArcher/rc.com"
+      - "C:/Program Files (x86)/PrismArcher/rc.exe"
+      - "C:/Program Files (x86)/PrismArcher/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PrismArcher"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PrismArcher"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-l1u2bv"
+      binary: "D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-l1u2bv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-l1u2bv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d25f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
+        빌드 시작: 2026-01-13 오후 3:59:00
+        
+        1 노드의 "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1u2bv\\cmTC_3d25f.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1u2bv\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_3d25f.dir\\Debug\\cmTC_3d25f.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_3d25f.dir\\Debug\\cmTC_3d25f.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_3d25f.dir\\Debug\\cmTC_3d25f.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3d25f.dir\\Debug\\\\" /Fd"cmTC_3d25f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33133(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3d25f.dir\\Debug\\\\" /Fd"cmTC_3d25f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1u2bv\\Debug\\cmTC_3d25f.exe" /INCREMENTAL /ILK:"cmTC_3d25f.dir\\Debug\\cmTC_3d25f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-l1u2bv/Debug/cmTC_3d25f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-l1u2bv/Debug/cmTC_3d25f.lib" /MACHINE:X64  /machine:x64 cmTC_3d25f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3d25f.vcxproj -> D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1u2bv\\Debug\\cmTC_3d25f.exe
+        FinalizeBuildStatus:
+          "cmTC_3d25f.dir\\Debug\\cmTC_3d25f.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_3d25f.dir\\Debug\\cmTC_3d25f.tlog\\cmTC_3d25f.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1u2bv\\cmTC_3d25f.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-w3kxw0"
+      binary: "D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-w3kxw0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-w3kxw0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b1df2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
+        빌드 시작: 2026-01-13 오후 3:59:01
+        
+        1 노드의 "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3kxw0\\cmTC_b1df2.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3kxw0\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b1df2.dir\\Debug\\\\" /Fd"cmTC_b1df2.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33133(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b1df2.dir\\Debug\\\\" /Fd"cmTC_b1df2.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3kxw0\\Debug\\cmTC_b1df2.exe" /INCREMENTAL /ILK:"cmTC_b1df2.dir\\Debug\\cmTC_b1df2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-w3kxw0/Debug/cmTC_b1df2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Github/shooting_puzzle_game/build/CMakeFiles/CMakeScratch/TryCompile-w3kxw0/Debug/cmTC_b1df2.lib" /MACHINE:X64  /machine:x64 cmTC_b1df2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b1df2.vcxproj -> D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3kxw0\\Debug\\cmTC_b1df2.exe
+        FinalizeBuildStatus:
+          "cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\cmTC_b1df2.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\Github\\shooting_puzzle_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3kxw0\\cmTC_b1df2.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33133.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "DirectX"
+    configs:
+      -
+        filename: "DirectXConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "directx-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "DirectX"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Github/shooting_puzzle_game/build/CMakeFiles/pkgRedirects/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Github/shooting_puzzle_game/build/CMakeFiles/pkgRedirects/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/app/USER/product/21c/dbhomeXE/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/app/USER/product/21c/dbhomeXE/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Microsoft/WindowsApps/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/GitHubDesktop/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/GitHubDesktop/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Microsoft VS Code/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/cursor/resources/app/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/cursor/resources/app/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/.local/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/.local/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Python/Scripts/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Python/Scripts/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Python/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Python/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.4/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-21/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Java/jdk-21/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2023.3.3/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Ollama/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Ollama/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Antigravity/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Programs/Antigravity/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Roaming/npm/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Roaming/npm/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/USER/AppData/Local/Microsoft/WinGet/Links/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/supabase_CLI/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/supabase_CLI/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/DirectXConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/directx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\app\\USER\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\USER\\.dotnet\\tools"
+        - "C:\\Users\\USER\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin"
+        - "C:\\Program Files\\Java\\jdk-21\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2023.3.3\\bin"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\USER\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\USER\\AppData\\Roaming\\npm"
+        - "C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\USER\\.local\\bin"
+        - "C:\\Program Files\\supabase_CLI"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PrismArcher"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PrismArcher"
+...

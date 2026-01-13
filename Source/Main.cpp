@@ -52,22 +52,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam,
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                    LPSTR lpCmdLine, int nCmdShow) {
-  WNDCLASSEX wc = {};
-  wc.cbSize = sizeof(WNDCLASSEX);
+  WNDCLASSEXW wc = {};
+  wc.cbSize = sizeof(WNDCLASSEXW);
   wc.style = CS_HREDRAW | CS_VREDRAW;
   wc.lpfnWndProc = WndProc;
   wc.hInstance = hInstance;
   wc.hCursor = LoadCursor(nullptr, IDC_ARROW);
   wc.lpszClassName = L"PrismArcherWindowClass";
-  RegisterClassEx(&wc);
+  RegisterClassExW(&wc);
 
   RECT wr = {0, 0, 1280, 720};
   AdjustWindowRect(&wr, WS_OVERLAPPEDWINDOW, FALSE);
 
-  g_hWnd = CreateWindowEx(0, L"PrismArcherWindowClass", L"Prism Archer",
-                          WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
-                          wr.right - wr.left, wr.bottom - wr.top, nullptr,
-                          nullptr, hInstance, nullptr);
+  g_hWnd = CreateWindowExW(0, L"PrismArcherWindowClass", L"Prism Archer",
+                           WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
+                           wr.right - wr.left, wr.bottom - wr.top, nullptr,
+                           nullptr, hInstance, nullptr);
 
   if (!g_hWnd)
     return -1;
@@ -117,7 +117,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
       g_player->Render(g_renderer.get(), viewProj);
       BulletManager::Instance().Render(g_renderer.get(), viewProj);
 
-      // UI Rendered on top
       UIManager::Instance().Render(g_renderer.get());
 
       if (Input::Instance().IsKeyDown(VK_ESCAPE))

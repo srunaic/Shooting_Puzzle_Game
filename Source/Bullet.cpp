@@ -1,5 +1,6 @@
 #include "../Include/Bullet.h"
 #include "../Include/Physics.h"
+#include "../Include/SpriteRenderer.h"
 
 using namespace DirectX;
 

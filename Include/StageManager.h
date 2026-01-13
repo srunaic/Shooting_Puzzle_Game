@@ -1,4 +1,5 @@
 #pragma once
+#include <directxmath.h>
 #include <string>
 #include <vector>
 

@@ -1,0 +1,3 @@
+@echo off
+echo Starting Prism Archer...
+start build\Release\PrismArcher.exe

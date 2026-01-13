@@ -1,5 +1,7 @@
 #include "../Include/Enemy.h"
+#include "../Include/SpriteRenderer.h"
 #include "../Include/UIManager.h"
+
 
 using namespace DirectX;
 

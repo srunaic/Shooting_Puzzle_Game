@@ -1,0 +1,10 @@
+^D:\GITHUB\SHOOTING_PUZZLE_GAME\BUILD\CMAKEFILES\36D036BA05A635EC9719236351E91120\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/shooting_puzzle_game -BD:/Github/shooting_puzzle_game/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Github/shooting_puzzle_game/build/PrismArcher.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

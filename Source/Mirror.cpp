@@ -1,4 +1,5 @@
 #include "../Include/Mirror.h"
+#include "../Include/SpriteRenderer.h"
 
 using namespace DirectX;
 
